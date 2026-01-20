@@ -3,9 +3,9 @@ const skills=[
     "HTML",
     "CSS",
     "React",
-    "C",
+    "C Programming",
     "Tailwind CSS",
-    "C++",
+    "C++ Programming",
     "JavaScript",
     //add more later
 ]
@@ -18,7 +18,7 @@ export const SkillsSection = () =>{
                 </h2>
             <div className="relative overflow-hidden">
                 <div className="flex animate-slide">
-                    {[...skills,...skills,...skills].map((skill,idx)=>(
+                    {[...skills,...skills].map((skill,idx)=>(
                         <div key={idx} className="flex-shrink-0 px-8 py-4">
                             <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">{skill}</span>
                         </div>
